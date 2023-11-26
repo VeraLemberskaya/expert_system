@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./scss/styles.scss" />
+    <title>Document</title>
+    <script type="module" src="./js/main.js"></script>
+  </head>
+  <body>
+    <form id="initial-form" class="container mt-5">
+      <div class="mb-3">
+        <label class="form-label" for="features">Enter features (split with ","):</label>
+        <input class="form-control" name="features" />
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="objects">Enter objects (split with ","):</label>
+        <input class="form-control" name="objects" />
+      </div>
+      <button type="submit" class="btn btn-primary">Further</button>
+    </form>
+    <form style="display: none;" id="data-form" class="container mt-5"></form>
+  </body>
+</html>
